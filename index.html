@@ -1,32 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>eHanEx download site</title>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>한진 모바일 앱 다운로</title>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/landing-page.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 </head>
 <body>
 
-<div class="jumbotron text-center">
-  <h1>eHanEx Download</h1>
-  <p>You can get 'eHanEx' mobile app now!</p> 
-  <a href="https://itunes.apple.com/kr/app/%ED%95%9C%EC%A7%84-%EC%9D%B4%ED%95%98%EB%84%A5%EC%8A%A4-%EB%AA%A8%EB%B0%94%EC%9D%BC/id944870360?mt=8" class="btn btn-info" role="button">앱스토어 웹 바로가기</a>
-</div>
-  
-<div class="container">
-  <div class="row">
-    <div class="col-sm-6">
-      <h3>Live Server</h3>
-      <a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/histdev/hanjin/master/binary/ehanex.plist" class="btn btn-info" role="button">Download</a>
+<!-- Header -->
+<div class="intro-header">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="intro-message">
+            <h1>Hanjin Mobile Apps</h1>
+            <br>
+            <h3>한진 모바일 앱을 다운 받아보세요.</h3>
+            <hr class="intro-divider">
+            <ul class="list-inline intro-social-buttons">
+              <li>
+                <a href="#ehanex_app" class="btn btn-default btn-lg"> <span class="network-name"><i class="fa fa-apple fa-fw"></i>이하넥스</span></a>
+              </li>
+              <li>
+                <a href="#hanjinDelivery_app" class="btn btn-default btn-lg"> <span class="network-name"><i class="fa fa-android fa-fw"></i>한진택배</span></a>
+              </li>
+            </ul>
+        </div>
+      </div>
     </div>
-    <div class="col-sm-6">
-      <h3>Dev Server</h3>
-      <a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/histdev/hanjin/master/binary/ehanex_dev.plist" class="btn btn-info" role="button">Download</a>
-    </div>
+
   </div>
+    <!-- /.container -->
+
+</div>
+<!-- /.intro-header -->
+
+<a name="ehanex_app"></a>
+<div class="guide">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h2 class="guide-header">이하넥스 모바일</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-8">
+          <p>
+              <ol class="ol-lead">
+                  <li>
+                    다운로드: 
+                    <a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/histdev/hanjin/master/binary/ehanex.plist">운영</a> | 
+                    <a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/histdev/hanjin/master/binary/ehanex_dev.plist"> 개발</a>
+                  </li>
+                  <li>앱 실행 및 로그인 후 사용</li>
+                  <li>
+                    <a href="https://itunes.apple.com/kr/app/%ED%95%9C%EC%A7%84-%EC%9D%B4%ED%95%98%EB%84%A5%EC%8A%A4-%EB%AA%A8%EB%B0%94%EC%9D%BC/id944870360?mt=8">애플스토어에서 보기</a>
+                  </li>
+              </ol>
+          </p>
+      </div>
+      <div class="col-sm-4">
+        <img class="img-responsive" src="img/ehanex.gif" alt="iOS앱">
+      </div>
+    </div>            
+  </div>
+    <!-- /.container -->
+</div>
+
+<a name="hanjinDelivery_app"></a>
+<div class="guide">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h2 class="guide-header">한진택배</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-8">
+          <p>
+              <ol class="ol-lead">
+                  <li><a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/histdev/hanjin/master/binary/hanjindelivery.plist">다운로드</a></li>
+                  <li>앱 실행 및 휴대폰인증 후 사용</li>
+                  <li>로그인 (선택사항)</li>
+                  <li>
+                    <a href="https://itunes.apple.com/kr/app/%ED%95%9C%EC%A7%84-%EC%9D%B4%ED%95%98%EB%84%A5%EC%8A%A4-%EB%AA%A8%EB%B0%94%EC%9D%BC/id977559521?mt=8">애플스토어에서 보기</a>
+                  </li>
+              </ol>
+          </p>
+      </div>
+      <div class="col-sm-4">
+        <img class="img-responsive" src="img/hanjindelivery.gif" alt="iOS앱">
+      </div>
+    </div>            
+  </div>
+    <!-- /.container -->
 </div>
 
 </body>
