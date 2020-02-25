@@ -11,7 +11,7 @@
                                         <key>kind</key>
                                         <string>software-package</string>
                                         <key>url</key>
-                                        <string>https://raw.githubusercontent.com/histdev/hanjin/ios/binary/ehanex.ipa</string>
+                                        <string>ttps://github.com/histdev/hanjin/releases/download/ehanex/ehanex.ipa</string>
                                 </dict>
                         </array>
                         <key>metadata</key>
